@@ -10,6 +10,6 @@ class XdebugController extends Controller
     {
         $name = $request->name;
 
-        return 321;
+        return "321 {$name}";
     }
 }
